@@ -4,8 +4,23 @@
 h1{
   text-align: center;
 }
+.namecard{
+  box-shadow: 0 0 4px 0 rgba(0,0,0,0.20);
+  border-radius: 8px;
+  padding: 16px;
+}
 .cocorocount{
   overflow: hidden;
+  margin-top: 60px;
+}
+.cocoro-btn{
+  float: left;
+  margin-left: 20px;
+}
+.btn-text{
+  font-size: 10px;
+  text-align: center;
+  width: 70px;
 }
 #btn{
   border-radius: 50%;
@@ -13,8 +28,6 @@ h1{
   width: 56px;
   border-style: none;
   background-color: #D8D8D8;
-  margin-left: 20px;
-  float: left;
 }
 .cocoronumber{
   width: 200px;
