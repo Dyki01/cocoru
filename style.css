@@ -1,3 +1,6 @@
+body{
+  color: #515C63;
+}
 p{
   margin: 0;
 }
@@ -21,6 +24,25 @@ h1{
 }
 .first-line{
   overflow: hidden;
+}
+.namecard-name{
+  font-size: 22px;
+  font-weight: bold;
+}
+.namecard-shop{
+  font-size: 15px;
+}
+.namecard hr{
+  border-top:1px solid #D8D8D8;
+  margin: 8px 0px 12px 0px;
+}
+.subtitle{
+  font-size: 12px;
+  font-weight: bold;
+}
+.body{
+  font-size: 15px;
+  margin: 8px 0 16px;
 }
 .namecard-info{
   margin-left: 16px;
