@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta charset="utf-8">
+<title>cocoru</title>
+<meta name="description" content="">
+<meta name="author" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="style.css">
+<!--[if lt IE 9]>
+<script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.2/html5shiv.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+<link rel="shortcut icon" href="">
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <h1>cocoru</h1>
+  <div class="content">
+    <button id="btn">星</button>
+    <p>累計お心つけ</p>
+    <p id="result"></p>
+  </div>
+<script type="text/javascript">
+var cnt = 0;
+var elm;
+function clickCount() {
+elm.innerHTML = cnt++;
+}
+window.onload = function() {
+elm = document.getElementById('result');
+if (document.addEventListener) {
+document.getElementById('btn').addEventListener('click', clickCount, false);
+} else {
+document.getElementById('btn').attachEvent('onclick', clickCount);
+}
+elm.innerHTML = cnt;
+}
+</script>
+</body>
+</html>
