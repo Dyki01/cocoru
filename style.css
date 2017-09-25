@@ -1,3 +1,6 @@
+p{
+  margin: 0;
+}
 .content{
   margin: 0 auto;
 }
@@ -7,7 +10,22 @@ h1{
 .namecard{
   box-shadow: 0 0 4px 0 rgba(0,0,0,0.20);
   border-radius: 8px;
-  padding: 16px;
+  padding: 8px;
+  margin: 0 20px;
+}
+.namecard img{
+  width:65px;
+  height: auto;
+  border-radius: 50%;
+  float: left;
+}
+.first-line{
+  overflow: hidden;
+}
+.namecard-info{
+  margin-left: 16px;
+  display: block;
+  float: left;
 }
 .cocorocount{
   overflow: hidden;
