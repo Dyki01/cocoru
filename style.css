@@ -1,14 +1,24 @@
 .content{
   margin: 0 auto;
 }
+h1{
+  text-align: center;
+}
+.cocorocount{
+  overflow: hidden;
+}
 #btn{
   border-radius: 50%;
   height: 56px;
   width: 56px;
   border-style: none;
   background-color: #D8D8D8;
-  left: 20px;
+  margin-left: 20px;
+  float: left;
 }
 .cocoronumber{
-  right: 20px;
+  width: 200px;
+  text-align: right;
+  margin-left: auto;
+  margin-right: 20px;
 }
